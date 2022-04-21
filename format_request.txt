@@ -1,0 +1,68 @@
+Canteen_id
+ - SAC canteen 1
+
+Servicetype_id
+ - Breakfast 38
+ - Lunch 39
+ - Dinner 40
+ - Tea/Snacks 41
+ - Tatkal (screw it) 
+   - Lunch 46
+   - Breakfast 47
+   - Dinner 48
+   - Tea/Snacks 49
+   - Holiday Lunch 52
+
+
+cb (current balance)
+ - "{:.2 0}"
+
+bd[] (booking dates, array)
+ - current two weeks in "%Y-%m-%d"
+
+payable/advamt
+ - Breakfast 6 (cols) * 14 (days) - All "Y"?
+ - Lunch
+ - Tea/Snacks
+ - Dinner
+
+Dish_id_{date.fmt("%Y-%m-%d")}[] (is list?)
+ # Breakfast
+ - basic breakfast - 186
+ - hot milk - 187
+ - coffee - 196
+ - butter sachet - 225
+ - boiled egg - 226
+ - steamed banana - 227
+ 
+ # Lunch
+ - basic lunch - 188
+ - applam - 197 (2)
+ - salad - 198
+ - south indian - 231
+ - dal of the day - 232
+ - dessert - 233
+ - chicken dish - 236
+ - fish dish - 237
+
+ # Dinner
+ - basic dinner - 189
+ - fish fry - 190
+ - veg special - 191
+ - paneer - 192
+ - non veg chicken - 193
+ - salad - 241
+ - south indian - 242
+ - egg dish - 298
+
+ # Tea and Snacks
+ - Tea - 194
+ - Snacks - 195
+
+
+prev_{date.fmt("")}[]
+ - num items that can be bought for each dish for that day (if it can't don't set)
+
+savedgt (previous total)
+
+Submit: "Save+Booking"
