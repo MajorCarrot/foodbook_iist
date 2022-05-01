@@ -267,6 +267,11 @@ def get_bookdates(args, cur_time):
         if max_end_date > args.skip_till:
             for date in daterange(args.skip_till + timedelta(days=1), max_end_date):
                 book_dates.append(date)
+
+    else:
+        for date in daterange(min_start_date, max_end_date):
+            book_dates.append(date)
+
     return book_dates
 
 

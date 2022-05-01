@@ -4,24 +4,47 @@ Week1:
   all_days:
     Breakfast:
       basic_breakfast: true
-      hot_milk: true
+      hot_milk: 2
       coffee: false
       butter_sachet: false
       boiled_egg: false
-      steamed_banana: false
+      steamed_banana: true
 
     Lunch:
       basic_lunch: true
-      appalam: 0
+      appalam: 1
       salad: true
-      south_indian_dish: false
-      dal_of_the_day: false
-      dessert: false
+      south_indian_dish: true
+      dal_of_the_day: true
+      dessert: true
       chicken_dish: false
       fish_dish: false
 
     Dinner:
       basic_dinner: true
+      fish_fry: false
+      veg_special: true
+      paneer_dish: true
+      non_veg_chicken: false
+      salad: true
+      south_indian: true
+      egg_dish: false
+
+    Tea_Snacks:
+      tea: true
+      snacks: 2
+
+  Monday:
+    Breakfast:
+      basic_breakfast: false
+      hot_milk: false
+      coffee: false
+      butter_sachet: false
+      boiled_egg: false
+      steamed_banana: false
+
+    Dinner:
+      basic_dinner: false
       fish_fry: false
       veg_special: false
       paneer_dish: false
@@ -30,69 +53,54 @@ Week1:
       south_indian: false
       egg_dish: false
 
-    Tea_Snacks:
-      tea: true
-      snacks: true
-
-  Monday:
-    Breakfast:
-      basic_breakfast: false
-      hot_milk: false
-
-    Lunch:
-      dessert: true
-
-    Dinner:
-      basic_dinner: false
-
-  Wednesday:
-    Lunch:
-      dessert: true
-
-  Thursday:
-    Lunch:
-      basic_lunch: false
-      salad: false
-
   Friday:
-    Lunch:
-      dessert: true
-    
     Dinner:
       basic_dinner: false
-
-  Saturday:
-    Breakfast:
-      basic_breakfast: false
-      hot_milk: false
-
-  Sunday:
-    Tea_Snacks:
-      snacks: false
-      tea: false
+      fish_fry: false
+      veg_special: false
+      paneer_dish: false
+      non_veg_chicken: false
+      salad: false
+      south_indian: false
+      egg_dish: false
 
 Week2:
   all_days:
     Breakfast:
       basic_breakfast: true
-      hot_milk: true
+      hot_milk: 2
       coffee: false
       butter_sachet: false
       boiled_egg: false
-      steamed_banana: false
+      steamed_banana: true
 
     Lunch:
       basic_lunch: true
-      appalam: 0
+      appalam: 1
       salad: true
-      south_indian_dish: false
-      dal_of_the_day: false
-      dessert: false
+      south_indian_dish: true
+      dal_of_the_day: true
+      dessert: true
       chicken_dish: false
       fish_dish: false
 
     Dinner:
       basic_dinner: true
+      fish_fry: false
+      veg_special: true
+      paneer_dish: true
+      non_veg_chicken: false
+      salad: true
+      south_indian: true
+      egg_dish: false
+
+    Tea_Snacks:
+      tea: true
+      snacks: 2
+
+  Friday:
+    Dinner:
+      basic_dinner: false
       fish_fry: false
       veg_special: false
       paneer_dish: false
@@ -101,43 +109,21 @@ Week2:
       south_indian: false
       egg_dish: false
 
-    Tea_Snacks:
-      tea: true
-      snacks: true
-
-  Monday:
-    Lunch:
-      dessert: true
-
-  Tuesday:
-    Lunch:
-      dessert: true
-
-  Wednesday:
-    Lunch:
-      dessert: true
-
-  Thursday:
-    Lunch:
-      basic_lunch: false
-      salad: false
-
-  Friday:
-    Tea_Snacks:
-      tea: false
-      snacks: false
-
-    Dinner:
-      basic_dinner: false
-
   Saturday:
     Breakfast:
       basic_breakfast: false
       hot_milk: false
+      coffee: false
+      butter_sachet: false
+      boiled_egg: false
+      steamed_banana: false
 
-    Tea_Snacks:
-      snacks: false
-      tea: false
-    
     Dinner:
-      basic_dinner: False
+      basic_dinner: false
+      fish_fry: false
+      veg_special: false
+      paneer_dish: false
+      non_veg_chicken: false
+      salad: false
+      south_indian: false
+      egg_dish: false
